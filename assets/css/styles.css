@@ -10974,7 +10974,7 @@ img{
 }
 @media (min-width: 992px) { 
   section.resume-section {
-    padding-left: 15rem;
+    padding-left: 8%;
     padding-right: 5rem;  
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -10985,23 +10985,25 @@ img{
 
 .cert{
   width: 420px;
-  height: 290px;
+  height: 300px;
   float: center;
   margin: 0px 0px;
   transition: 1s;
 }
-.cert:hover{ 
+.cert:hover{
+  height: 50%;
   transform: scale(1.5);
   z-index: 1;
+  box-shadow: 0px 0px 5px #141619;
 }
 
 
 
 .box{
-  width: 200px;
-  height: 350px;  
+  width: 170px;
+  height: 300px;  
   float: center;
-  margin: 50px 10px;
+  margin: 60px 5px;
   transition: 1s;
 }
 .box:hover{
@@ -11013,57 +11015,57 @@ img{
 
 
 .rmi{ 
-  width: 450px;
+  width: 320px;
   height: 280px;
   float: center;
-  margin: 0px 0px;
+  margin: 10px 0px;
   transition: 1s;
 }
 .rmi:hover{ 
-  height: 85%;
-  transform: scale(1.5);
+  height: 58%;  
+  transform: scale(1.6);
   z-index: 4;
   box-shadow: 0px 0px 5px #141619;
 }
 
 
 .wed{ 
-  width: 400px;
+  width: 370px;
   height: 280px;
   float: center;
   margin: 0px 0px;
   transition: 1s;
 }
 .wed:hover{
-  height: 100%;
-  transform: scale(1.8);
+  height: 93%;
+  transform: scale(1.5);
   box-shadow: 0px 0px 5px #141619;
 }
 
 
 .wed1{ 
-  width: 400px;
+  width: 370px;
   height: 280px;
   float: center;
   margin: 0px 0px;
   transition: 1s;
 }
 .wed1:hover{ 
-  height: 100%;
-  transform: scale(2);
+  height: 70%;
+  transform: scale(1.5);
   box-shadow: 0px 0px 5px #141619;
 }
 
 
 .wed2{ 
-  width: 400px;
+  width: 370px;
   height: 280px;
   float: center;
   margin: 0px 0px;
   transition: 1s;
 }
 .wed2:hover{
-  height: 100%;
-  transform: scale(2);
+  height: 70%;
+  transform: scale(1.5);
   box-shadow: 0px 0px 5px #141619;
 }
